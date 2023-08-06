@@ -109,12 +109,31 @@ const HomePage = () => {
   return (
     <Layout title={"SextyShopers "}>
       {/* banner image */}
-      <img
+      <div className="MaskGroup" style={{width: 1516, height: 318.40, position: 'relative'}}>
+  <div className="Bitmap" style={{width: 1516, height: 318.40, left: 0, top: 0, position: 'absolute'}}>
+    <div className="Mask" style={{width: 1516, height: 318.40, left: 0, top: 0, position: 'absolute', background: '#44AEE8'}} />
+    <div className="Mask" style={{width: 1516, height: 318.40, left: 0, top: 0, position: 'absolute', background: '#44AEE8'}} />
+  </div>
+  <img className="ScandinavianInteriorMockupWallDecalBackground1" style={{width: 1516, height: 318.49, left: 0, top: 0, position: 'absolute'}} src="/images/backpenes.png"  />
+  <div className="Group114" style={{width: 1271.02, height: 247.10, left: 137.91, top: 35.67, position: 'absolute'}}>
+    <div className="Rectangle77" style={{width: 1245.44, height: 230.97, left: 0, top: 0, position: 'absolute', background: 'rgba(255, 242.72, 227.37, 0.65)', borderRadius: 10}} />
+    <div className="Group88" style={{width: 1192.06, height: 214.77, left: 78.96, top: 32.33, position: 'absolute'}}>
+      {/* <div className="DermatologySkinC" style={{width: 1082.74, height: 66.22, left: 0.46, top: 14.60, position: 'absolute', textAlign: 'right', color: '#B88E2F', fontSize: 52, fontFamily: 'Poppins', fontWeight: '700', lineHeight: 65, wordWrap: 'break-word'}}>Discover Our       New Collection</div> */}
+      {/* <div className="TreatingAllSkinCo" style={{width: 1081.20, height: 27.09, left: 0, top: 89.82, position: 'absolute', textAlign: 'right', color: '#333333', fontSize: 18, fontFamily: 'Poppins', fontWeight: '500', lineHeight: 24, wordWrap: 'break-word'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</div> */}
+      <div className="Frame94" style={{width: 222, height: 74, paddingLeft: 72, paddingRight: 72, paddingTop: 25, paddingBottom: 25, left: 424.27, top: 140.77, position: 'absolute', background: '#B88E2F', border: '1px solid', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+        <div className="BookAnAppointment" style={{color: 'white', fontSize: 16, fontFamily: 'Poppins', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>BUY Now</div>
+      </div>
+      <div className="BookAnAppointment" style={{width: 238.24, height: 12.51, left: 953.82, top: 0, position: 'absolute', color: '#333333', fontSize: 16, fontFamily: 'Poppins', fontWeight: '600', letterSpacing: 3, wordWrap: 'break-word'}}>New Arrival</div>
+    </div>
+  </div>
+</div>
+
+      {/* <img
         src="/images/banner.jpg"
         className="banner-img"
         alt="bannerimage"
         width={"100%"}
-      />
+      /> */}
       {/* banner image */}
       <div className="container-fluid row mt-3 home-page">
         <div className="col-md-3 filters">
