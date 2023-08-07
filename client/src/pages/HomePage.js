@@ -120,9 +120,14 @@ const HomePage = () => {
     <div className="Group88" style={{width: 1192.06, height: 214.77, left: 78.96, top: 32.33, position: 'absolute'}}>
       <div className="DermatologySkinC" style={{width: 1082.74, height: 66.22, left: 0.46, top: 14.60, position: 'absolute', textAlign: 'center', color: '#B88E2F', fontSize: 52, fontFamily: 'ROBOTO', fontWeight: '200', lineHeight: 2.3, wordWrap: 'break-word',}}>Discover OurNew Collection</div>
       {/* <div className="TreatingAllSkinCo" style={{width: 1081.20, height: 27.09, left: 0, top: 89.82, position: 'absolute', textAlign: 'right', color: '#333333', fontSize: 18, fontFamily: 'Poppins', fontWeight: '500', lineHeight: 24, wordWrap: 'break-word'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</div> */}
-      <div className="Frame94" style={{width: 222, height: 74, paddingLeft: 72, paddingRight: 72, paddingTop: 25, paddingBottom: 25, left: 424.27, top: 140.77, position: 'absolute', background: '#B88E2F', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
-        <div className="BookAnAppointment" style={{color: 'white', fontSize: 16, fontFamily: 'roboto  ', fontWeight: '300', textTransform: 'uppercase'}}>Buy Now</div>
-      </div>
+      <button onClick={() => navigate('/categories')} className="Frame94" style={{width: 222, height: 74, paddingLeft: 72, paddingRight: 72, paddingTop: 25, paddingBottom: 25, left: 424.27, top: 140.77, position: 'absolute', background: '#B88E2F', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+        <div className="BookAnAppointment" style={{color: 'white', fontSize: 16, fontFamily: 'roboto  ', fontWeight: '300', textTransform: 'uppercase'}}>Buy Now</div></button> 
+        
+        
+
+
+
+      
       <div className="BookAnAppointment" style={{width: 238.24, height: 12.51, left: 953.82, top: 0, position: 'absolute', color: '#333333', fontSize: 16, fontFamily: 'roboto', fontWeight: '600', letterSpacing: 3, wordWrap: 'break-word'}}>New Arrival</div>
     </div>
   </div>
@@ -164,7 +169,7 @@ const HomePage = () => {
               className="btn btn-danger"
               onClick={() => window.location.reload()}
             >
-              RESET DE MATRIX
+              RESTABLECER FILTRO
             </button>
           </div>
         </div>
@@ -195,6 +200,7 @@ const HomePage = () => {
                     <button
                       className="btn btn-info ms-1"
                       onClick={() => navigate(`/product/${p.slug}`)}
+                      
                     >
                       Más Detalles 
                     </button>
