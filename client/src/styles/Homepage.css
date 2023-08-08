@@ -11,6 +11,7 @@
   display: flex;
   flex-wrap: wrap;
   background-color: rgb(162, 187, 202);
+  margin-left: unset;
 }
 .home-page .card {
   background-color: rgba(244, 245, 247, 1);
@@ -80,3 +81,41 @@ filters
   font-weight: bold;
   font-size: 20px !important;
 }
+
+
+/* ==================
+slider
+============== */
+
+.Group88 {
+  /* Otros estilos para .Group88 */
+  /* Agrega las siguientes propiedades para centrar el botón en .Group88 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .Frame94::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .Frame94:hover::before {
+    opacity: .25;
+  }
+
+  .Frame94:active::before {
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+
+  
+  

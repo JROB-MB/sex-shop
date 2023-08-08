@@ -109,28 +109,29 @@ const HomePage = () => {
   return (
     <Layout title={"SextyShopers "}>
       {/* banner image */}
-      <div className="MaskGroup" style={{width: '100%', height: 318.40, position: 'relative'}}>
-  <div className="Bitmap" style={{width: '100%', height: 318.40, left: 0, top: 0, position: 'absolute'}}>
-    <div className="Mask" style={{width: 1516, height: 318.40, left: 0, top: 0, position: 'absolute', background: '#44AEE8'}} />
-    <div className="Mask" style={{width: 1516, height: 318.40, left: 0, top: 0, position: 'absolute', background: '#44AEE8'}} />
+<div className="MaskGroup" style={{width: '100%', height: 318.40, position: 'relative'}}>
+      <div className="Bitmap" style={{width: '100%', height: 318.40, left: 0, top: 0, position: 'absolute'}}>
+    
+    
+    
   </div>
-  <img className="ScandinavianInteriorMockupWallDecalBackground1" style={{width: '100%', height: 318.49, left: 0, top: 0, position: 'absolute'}} src="/images/backpenes.png"  />
-  <div className="Group114" style={{width: 1271.02, height: 247.10, left: 137.91, top: 35.67, position: 'absolute'}}>
-    <div className="Rectangle77" style={{width: 1245.44, height: 230.97, left: 0, top: 0, position: 'absolute', background: 'rgba(255, 242.72, 227.37, 0.65)', borderRadius: 10}} />
-    <div className="Group88" style={{width: 1192.06, height: 214.77, left: 78.96, top: 32.33, position: 'absolute'}}>
-      <div className="DermatologySkinC" style={{width: 1082.74, height: 66.22, left: 0.46, top: 14.60, position: 'absolute', textAlign: 'center', color: '#B88E2F', fontSize: 52, fontFamily: 'ROBOTO', fontWeight: '200', lineHeight: 2.3, wordWrap: 'break-word',}}>Discover OurNew Collection</div>
-      {/* <div className="TreatingAllSkinCo" style={{width: 1081.20, height: 27.09, left: 0, top: 89.82, position: 'absolute', textAlign: 'right', color: '#333333', fontSize: 18, fontFamily: 'Poppins', fontWeight: '500', lineHeight: 24, wordWrap: 'break-word'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</div> */}
-      <button onClick={() => navigate('/categories')} className="Frame94" style={{width: 222, height: 74, paddingLeft: 72, paddingRight: 72, paddingTop: 25, paddingBottom: 25, left: 424.27, top: 140.77, position: 'absolute', background: '#B88E2F', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
-        <div className="BookAnAppointment" style={{color: 'white', fontSize: 16, fontFamily: 'roboto  ', fontWeight: '300', textTransform: 'uppercase'}}>Buy Now</div></button> 
-        
-        
+      <div className="MaskGroup" style={{ width: '100%', height: 318.40, position: 'relative' }}>
+        <img className="ScandinavianInteriorMockupWallDecalBackground1" style={{ width: '100%', height: 318.49, left: 0, top: 0, position: 'absolute' }} src="/images/backpenes.png" />
+        <div className="Group114" style={{ width: '92%', height: 247.10, top: 35.67, position: 'absolute' }}>
+          <div className="Rectangle77" style={{ width: '100%', height: 230.97, left: 80, top: 0, position: 'absolute', background: 'rgba(255, 242.72, 227.37, 0.65)', borderRadius: 10 }}>
+            <div className="Group88" style={{ width: '100%', height: 214.77, left: 15, top: 32.33, position: 'absolute' }}>
+              <div className="DermatologySkinC" style={{ textTransform: 'uppercase', width: '100%', height: 66.22, left: 0.46, top: 14.60, position: 'absolute', textAlign: 'center', color: '#B88E2F', fontSize: 52, fontFamily: 'ROBOTO', fontWeight: '200', lineHeight: 2.3, wordWrap: 'break-word' }}>Descubre Nuestra Nueva Coleccion</div>
+              <div style={{ position: 'absolute', left: '50%', bottom: '-13px', transform: 'translateX(-50%)' }}>
 
-
-
-      
-      <div className="BookAnAppointment" style={{width: 238.24, height: 12.51, left: 953.82, top: 0, position: 'absolute', color: '#333333', fontSize: 16, fontFamily: 'roboto', fontWeight: '600', letterSpacing: 3, wordWrap: 'break-word'}}>New Arrival</div>
-    </div>
-  </div>
+                <button onClick={() => navigate('/categories')} className="Frame94" style={{ width: 222, height: 74, background: '#B88E2F', gap: 10, display: 'inline-flex', border: 'none' }}>
+                  <div className="BookAnAppointment" style={{ color: 'white', fontSize: 16, fontFamily: 'roboto', fontWeight: '300', textTransform: 'uppercase', padding: '25px 72px' }}>Buy Now</div>
+                </button>
+              </div>
+              <div className="BookAnAppointment" style={{ width: '238.24', height: 12.51, top: 0, position: 'absolute', color: '#333333', fontSize: 16, fontFamily: 'roboto', fontWeight: '600', letterSpacing: 3, wordWrap: 'break-word' }}>New Arrival</div>
+            </div>
+          </div>
+        </div>
+      </div>
 </div>
 
       {/* <img
@@ -140,7 +141,7 @@ const HomePage = () => {
         width={"100%"}
       /> */}
       {/* banner image */}
-      <div className="container-fluid row mt-3 home-page">
+      <div className="container-fluid row mt-1 home-page">
         <div className="col-md-3 filters">
           <h4 className="text-center">Filtro por Categoria</h4>
           <div className="d-flex flex-column">
@@ -173,6 +174,34 @@ const HomePage = () => {
             </button>
           </div>
         </div>
+
+
+      
+
+
+
+      
+
+{/* 
+        <div className="slider-container">
+  <div className="slider-wrapper">
+    <div className="slider-slide">
+     <img src="images/Dildos.jpg" alt="Slider 1" className="slider-image" />
+      <div className="slide-text">Dildos</div>
+    </div>
+    <div className="slider-slide">
+      <img src="images/vib.jpg" alt="Slide 2" className="slider-image" />
+      <div className="slide-text">Vibrators</div>
+    </div>
+    <div className="slider-slide">
+      <img src="/images/BDSM.jpg" alt="Slide 3" className="slider-image" />
+      <div className="slide-text">BDSM</div>
+    </div>
+  </div>
+</div> */}
+
+
+
         <div className="col-md-9 ">
           <h1 className="text-center">Todos los Productos 🍎</h1>
           <div className="d-flex flex-wrap">
