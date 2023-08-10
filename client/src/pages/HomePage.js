@@ -117,8 +117,8 @@ const HomePage = () => {
   </div>
       <div className="MaskGroup" style={{ width: '100%', height: 318.40, position: 'relative' }}>
         <img className="ScandinavianInteriorMockupWallDecalBackground1" style={{ width: '100%', height: 318.49, left: 0, top: 0, position: 'absolute' }} src="/images/backpenes.png" />
-        <div className="Group114" style={{ width: '92%', height: 247.10, top: 35.67, position: 'absolute' }}>
-          <div className="Rectangle77" style={{ width: '100%', height: 230.97, left: 80, top: 0, position: 'absolute', background: 'rgba(255, 242.72, 227.37, 0.65)', borderRadius: 10 }}>
+        <div className="Group114" style={{ width: '93%', height: 247.10, top: 35.67, position: 'absolute' }}>
+          <div className="Rectangle77" style={{ width: '100%', height: 230.97, left: 50, top: 0, position: 'absolute', background: 'rgba(255, 242.72, 227.37, 0.65)', borderRadius: 10 }}>
             <div className="Group88" style={{ width: '100%', height: 214.77, left: 15, top: 32.33, position: 'absolute' }}>
               <div className="DermatologySkinC" style={{ textTransform: 'uppercase', width: '100%', height: 66.22, left: 0.46, top: 14.60, position: 'absolute', textAlign: 'center', color: '#B88E2F', fontSize: 52, fontFamily: 'ROBOTO', fontWeight: '200', lineHeight: 2.3, wordWrap: 'break-word' }}>Descubre Nuestra Nueva Coleccion</div>
               <div style={{ position: 'absolute', left: '50%', bottom: '-13px', transform: 'translateX(-50%)' }}>
@@ -346,7 +346,7 @@ const HomePage = () => {
                 ) : (
                   <>
                     {" "}
-                    Loadmore <AiOutlineReload />
+                      Cargar Más <AiOutlineReload />
                   </>
                 )}
               </button>
