@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Checkbox, Radio } from "antd";
 import { Prices } from "../components/Prices";
 import { useCart } from "../context/cart";
@@ -141,8 +141,12 @@ const HomePage = () => {
         width={"100%"}
       /> */}
       {/* banner image */}
-      <div className="container-fluid row mt-1 home-page">
-        <div className="col-md-3 filters">
+
+
+
+
+       <div className="container-fluid row mt-1 home-page">
+        {/* <div className="col-md-3 filters">
           <h4 className="text-center">Filtro por Categoria</h4>
           <div className="d-flex flex-column">
             {categories?.map((c) => (
@@ -154,7 +158,7 @@ const HomePage = () => {
               </Checkbox>
             ))}
           </div>
-          {/* price filter */}
+           price filter 
           <h4 className="text-center mt-4">Filtro por precio 🤑</h4>
           <div className="d-flex flex-column">
             <Radio.Group onChange={(e) => setRadio(e.target.value)}>
@@ -173,7 +177,7 @@ const HomePage = () => {
               RESTABLECER FILTRO
             </button>
           </div>
-        </div>
+        </div>  */}
 
 
       
@@ -186,7 +190,7 @@ const HomePage = () => {
         <div className="slider-container">
   <div className="slider-wrapper">
     <div className="slider-slide">
-     <img src="images/Dildos.jpg" alt="Slider 1" className="slider-image" />
+    <img src="images/Dildos.jpg" alt="Slider 1" className="slider-image" />
       <div className="slide-text">Dildos</div>
     </div>
     <div className="slider-slide">
@@ -196,10 +200,86 @@ const HomePage = () => {
     <div className="slider-slide">
       <img src="/images/BDSM.jpg" alt="Slide 3" className="slider-image" />
       <div className="slide-text">BDSM</div>
-    </div>
+    </div>m
   </div>
 </div> */}
 
+
+
+
+
+
+
+<div className="container-fluid row mt-3 home-page">
+        
+        <h1 className="text-center">Categorias </h1>
+        <h2 className="text-center">Conoce mas sobre nosotros!</h2>
+        
+        
+
+        
+        <div className="slider-container" >
+          <div className="slider-wrapper" >
+          {categories?.map((c) => (
+          <div className="slider-slide">
+        <img src={`/images/${c.slug}.jpg`} alt="Slider 1" className="slider-image" />
+            
+        <Link className="slide-text" to={`/category/${c.slug}`}   >{c.name}</Link>
+      </div>))}
+      
+        </div> 
+    </div>
+            {/* Middle header con filtros */}
+            <div className="middle-header">
+    <div className="filters justify-content-between align-items-stretch">
+      <div className="category-filter text-center">
+        <h4>Filtro por Categoría</h4>
+        <div className="category-checkboxes">
+          {categories?.map((c) => (
+            <Checkbox
+              key={c._id}
+              onChange={(e) => handleFilter(e.target.checked, c._id)}
+            >
+              {c.name}
+            </Checkbox>
+          ))}
+        </div>
+      </div>
+      <div className="price-filter text-center">
+        <h4>Filtro por Precio</h4>
+        <div className="price-radio">
+          <Radio.Group onChange={(e) => setRadio(e.target.value)}>
+            {Prices?.map((p) => (
+              <div key={p._id}>
+                <Radio value={p.array}>{p.name}</Radio>
+              </div>
+            ))}
+          </Radio.Group>
+        </div>
+      </div>
+      <div className="reset-filter text-center">
+        <h4>Resetear Filtros</h4>
+        <button
+          className="btn btn-danger btn-sm"
+          onClick={() => window.location.reload()}
+        >
+          RESET
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+          
 
 
         <div className="col-md-9 ">

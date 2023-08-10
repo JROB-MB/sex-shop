@@ -37,10 +37,6 @@ const Footer = () => {
         </div>
 
         {/* Pie de página */}
-        <div style={{width: 1240.01, height: 59, left: 0, top: 360, position: 'absolute'}}>
-            <div style={{width: 1240.01, height: 0, left: 0, top: 0, position: 'absolute', border: '0.50px #D9D9D9 solid'}}></div>
-            <div style={{left: 2.01, top: 35, position: 'absolute', color: 'black', fontSize: 16, fontFamily: 'roboto', fontWeight: '400', wordWrap: 'break-word'}}>2023 Sexty Shopers. All rights reverved</div>
-        </div>
     </div>
 
     {/* Iconos de métodos de pago */}
