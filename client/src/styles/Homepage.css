@@ -513,9 +513,17 @@ Slider
   .reset-filter {
   }
 }
+#titulotodoslsoproductos{
+  font-family: revert;
+  color: black;
+}
 
+#titulo{
 
+  font-family: revert;
+color: black;
 
+}
 .col-md-9 {
     flex: 1 0 auto;
     width: 75%;

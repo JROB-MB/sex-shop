@@ -212,8 +212,8 @@ const HomePage = () => {
 
 <div className="container-fluid row mt-3 home-page">
         
-        <h1 className="text-center">Categorias </h1>
-        <h2 className="text-center">Conoce mas sobre nosotros!</h2>
+        <h1 id= 'titulo' className="text-center">Categorias </h1>
+        
         
         
 
@@ -283,7 +283,7 @@ const HomePage = () => {
 
 
         <div className="col-md-9 ">
-          <h1 className="text-center">Todos los Productos 🍎</h1>
+          <h1 id='titulotodoslsoproductos' className="text-center">Todos los Productos</h1>
           <div className="d-flex flex-wrap">
             {products?.map((p) => (
               <div className="card m-2" key={p._id}>

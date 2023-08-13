@@ -19,7 +19,10 @@
   --webkit-box-shadow: 0 8px 6px -6px gray;
   border-bottom: solid gray !important;
 }
-
+#navcard{
+padding-left: 70px;
+    padding-right: 50px;
+}
 .nav-link {
   font-weight: 300 !important;
 }

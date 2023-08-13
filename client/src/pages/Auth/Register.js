@@ -44,6 +44,7 @@ const Register = () => {
 
   return (
     <>
+    
       <div backgroundColor="#8E7CC3" className="div">
         <div className="div-2">
           <div className="div-3">
@@ -182,10 +183,10 @@ const Register = () => {
           flex-grow: 1;
           justify-content: center;
           padding-bottom: 30px;
-          padding-left: 107px;
-          padding-right: 108px;
+          padding-left: 58px;
+          padding-right: 91px;
           padding-top: 30px;
-          margin-right: 161px;
+          margin-right: 86px;
         }
         .h2 {
           color: rgb(51, 51, 51);
